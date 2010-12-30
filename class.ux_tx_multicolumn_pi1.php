@@ -42,7 +42,6 @@ class ux_tx_multicolumn_pi1 extends tx_multicolumn_pi1 {
 			$this->cObj->data = $data;
 			
 			/* BEGIN OF EDIT*/
-			//print_r($this->cObj->data);
 			$temp = explode(":",$this->cObj->currentRecord);
 			$this->cObj->currentRecord= $temp[0].":".$this->cObj->data['uid'];
 			/* END OF EDIT*/
