@@ -1,0 +1,50 @@
+
+FE Edit for multicolumn
+Extension Key: mzmulticolumnfeedit
+Language: en
+Keywords: feedit, multicolumn, forAdmins, forBeginners
+Copyright 2000-2010, Markus Zuercher, <mzmulticolumnfeedit@markus-zuercher.ch>
+
+This document is published under the Open Content License
+available from http://www.opencontent.org/opl.shtml
+
+The content of this document is related to TYPO3 
+- a GNU/GPL CMS/Framework available from www.typo3.org
+
+Table of Contents
+EXT: Readable name of your extension	1
+Introduction	3
+What does it do?	3
+Screenshots	3
+Users manual	4
+FAQ	4
+Known problems	5
+To-Do list	6
+ChangeLog	7
+
+Introduction
+What does it do?
+Multicolumn Extension does not support FE Edit for Elements within the Columns. This extension solves this Problem.
+Screenshots
+Sorry, there is nothing special to see
+Users manual
+Just install the extension, that's all.
+FAQ
+None yet
+
+Known problems
+None yet
+Please report bugs to http://forge.typo3.org/projects/extension-mzmulticolumnfeedit 
+To-Do list
+Post your requests here http://forge.typo3.org/projects/extension-mzmulticolumnfeedit
+
+ChangeLog
+Changelog online: http://typo3.org/extensions/repository/view/mzmulticolumnfeedit/current/info/ChangeLog/
+
+Version
+Changes:
+1.0.0a
+Initial Release
+1.0.1a
+Added Manual 
+
