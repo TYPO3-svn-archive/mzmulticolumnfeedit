@@ -3,7 +3,7 @@
 ########################################################################
 # Extension Manager/Repository config file for ext "mzmulticolumnfeedit".
 #
-# Auto generated 30-12-2010 10:51
+# Auto generated 07-01-2011 15:18
 #
 # Manual updates:
 # Only the data in the array - everything else is removed by next
@@ -12,16 +12,16 @@
 
 $EM_CONF[$_EXTKEY] = array(
 	'title' => 'FE Edit for multicolumn',
-	'description' => 'Adds FrontendEdit support to multicolumn extension',
+	'description' => 'Obsolete. Feature is implemented in multicolumn 2.1.3',
 	'category' => 'fe',
 	'author' => 'Markus Zuercher',
 	'author_email' => 'mzmulticolumnfeedit@markus-zuercher.ch',
 	'shy' => '',
 	'dependencies' => 'multicolumn,feedit',
-	'conflicts' => '',
+	'conflicts' => 'multicolumn',
 	'priority' => '',
 	'module' => '',
-	'state' => 'beta',
+	'state' => 'obsoloete',
 	'internal' => '',
 	'uploadfolder' => 0,
 	'createDirs' => '',
@@ -29,13 +29,14 @@ $EM_CONF[$_EXTKEY] = array(
 	'clearCacheOnLoad' => 0,
 	'lockType' => '',
 	'author_company' => '',
-	'version' => '1.0.1',
+	'version' => '1.0.3',
 	'constraints' => array(
 		'depends' => array(
-			'multicolumn' => '2.1.2',
+			'multicolumn' => '< 2.1.3',
 			'feedit' => '',
 		),
 		'conflicts' => array(
+			'multicolumn' => '> 2.1.2',
 		),
 		'suggests' => array(
 		),
